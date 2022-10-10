@@ -1,0 +1,47 @@
+.footer {
+    background-image: url(9.PNG);
+    background-size: contain;
+    background-position: center;
+    color: white;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    padding: 20px;
+    
+    background-color: #1b131a84
+}
+
+.footer__copyright {
+    text-align: center;
+    margin-top: 20px;   
+    font-weight: bold;
+    padding: 20px;
+    color: white;
+}
+
+.footer__title {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.footer__about-text {
+    width: 400px;
+    text-align: justify;
+}
+
+
+.footer i {
+    color: white;
+}
+
+.footer li {
+    margin: 10px 0;
+}
