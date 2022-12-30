@@ -13,13 +13,13 @@
     justify-content: space-evenly;
     flex-flow: row wrap;
     padding: 20px;
-    
+
     background-color: #1b131a84
 }
 
 .footer__copyright {
     text-align: center;
-    margin-top: 20px;   
+    margin-top: 20px;
     font-weight: bold;
     padding: 20px;
     color: white;
@@ -44,4 +44,30 @@
 
 .footer li {
     margin: 10px 0;
+}
+
+/*RESPONSIVO*/
+
+@media(max-width:900px){
+  .footer {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.footer__container {
+    padding: 10px;
+}
+
+.footer__copyright {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.footer__title {
+    font-size: 20px;
+}
+
 }

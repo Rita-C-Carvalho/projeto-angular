@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -13,8 +13,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -25,7 +25,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -35,7 +35,7 @@ body {
 	background-image: url(7.PNG);
 	background-size: contain;
     background-position: center;
-	 
+
 }
 ol, ul {
 	list-style: none;
@@ -59,7 +59,7 @@ table {
 	--green: #00A200;
     --roxomedio: #7C038C;
     --gray: rgba(88, 89, 91, 1);
-    --light-gray: rgba(232, 232, 232, 1);    
+    --light-gray: rgba(232, 232, 232, 1);
     --light-gray-2: rgb(247, 247, 247);
 }
 
@@ -95,3 +95,11 @@ textarea {
 
 html, body { height: 100%; }
 body { margin: 0; font-family: 'Times New Roman', Times, serif; }
+
+@media(max-width:900px){
+  body{
+    display: flex;
+    height: auto;
+    width: 100%;
+  }
+}

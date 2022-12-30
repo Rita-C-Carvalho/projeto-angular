@@ -4,3 +4,10 @@
     padding: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+@media(max-widht: 900px){
+  .container{
+    width: 100%;
+    padding: 10px;
+}
+}

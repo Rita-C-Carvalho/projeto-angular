@@ -33,3 +33,33 @@
     background-color: var(--roxomedio);
     color: #fff;
 }
+
+/*RESPONSIVO*/
+@media(max-widht:900px){
+  .search-form{
+    height: 44px;
+    display: flex;
+}
+
+.search-form input{
+    box-sizing: border-box;
+    height: 0px;
+    padding: 14px;
+    flex:1;
+    background-color: #1b131ac7;
+    color:  white;
+    border: none;
+    transition: all -3s ease-in-out;
+    font-size: 12px;
+}
+
+.search-form button{
+    width: 28px;
+    height: 28px;
+    background-color: var(--roxo);
+    border:none;
+    color: #fff;
+    font-size: 12px;
+}
+
+}
